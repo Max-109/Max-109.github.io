@@ -542,30 +542,55 @@
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  <input type="text" name="vardas" class="form-control" placeholder="Vardas" required="">
+                  <div class="klaida"></div>
                 </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                <div class="col-md-6">
+                  <input type="text" name="pavarde" class="form-control" placeholder="Pavardė" required="">
+                  <div class="klaida"></div>
+                </div>
+
+                <div class="col-md-6">
+                  <input type="email" name="email" class="form-control" placeholder="El. paštas" required="">
+                  <div class="klaida"></div>
+                </div>
+
+                <div class="col-md-6">
+                  <input type="text" name="telefonas" class="form-control" placeholder="Telefono numeris" required="">
+                  <div class="klaida"></div>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <input type="text" name="adresas" class="form-control" placeholder="Adresas" required="">
+                  <div class="klaida"></div>
                 </div>
 
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                <div class="col-md-4">
+                  <label for="klausimas1">Kaip vertinate svetainės dizainą?</label>
+                  <input type="text" id="klausimas1" name="klausimas1" class="form-control" placeholder="1–10" required="">
+                  <div class="klaida"></div>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="klausimas2">Kaip vertinate svetainės turinį?</label>
+                  <input type="text" id="klausimas2" name="klausimas2" class="form-control" placeholder="1–10" required="">
+                  <div class="klaida"></div>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="klausimas3">Kaip vertinate svetainės patogumą?</label>
+                  <input type="text" id="klausimas3" name="klausimas3" class="form-control" placeholder="1–10" required="">
+                  <div class="klaida"></div>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
+                  <button type="submit">Siųsti</button>
+                  <button type="button" class="isvalyti">Išvalyti</button>
                 </div>
 
               </div>
+              <div class="rezultatai"></div>
             </form>
           </div><!-- End Contact Form -->
 
@@ -611,7 +636,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -623,6 +647,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/custom.js"></script>
 
 </body>
 

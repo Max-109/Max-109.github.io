@@ -395,3 +395,63 @@ a:hover {
     transform: translate(0, 0);
   }
 }
+
+.contact .php-email-form label {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.contact .php-email-form input.neteisingas,
+.contact .php-email-form input.neteisingas:focus {
+  border-color: #dc3545;
+}
+
+.contact .php-email-form .klaida {
+  color: #dc3545;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.contact .php-email-form button[type=submit]:disabled {
+  background: #9aa5b5;
+  box-shadow: none;
+  transform: none;
+  cursor: not-allowed;
+}
+
+.contact .php-email-form .isvalyti {
+  color: #1d3557;
+  background: transparent;
+  border: 2px solid #1d3557;
+  border-radius: 8px;
+  padding: 10px 34px;
+  margin-left: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact .php-email-form .isvalyti:hover {
+  color: #ffffff;
+  background: #1d3557;
+}
+
+.rezultatai {
+  margin-top: 20px;
+  padding: 15px 20px;
+  background: #eef2f8;
+  border-left: 4px solid #1d3557;
+}
+
+.rezultatai:empty {
+  display: none;
+}
+
+.rezultatai p {
+  margin: 0;
+}
+
+.rezultatai .vidurkis {
+  margin-top: 10px;
+  font-weight: 700;
+}
