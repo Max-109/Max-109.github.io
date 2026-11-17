@@ -455,3 +455,125 @@ a:hover {
   margin-top: 10px;
   font-weight: 700;
 }
+
+.pazanga #xp-kiekis {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.xp-juosta {
+  height: 16px;
+  background: #e3e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.xp-progresas {
+  height: 100%;
+  width: 0;
+  background: #c2410c;
+  border-radius: 8px;
+  transition: width 0.6s;
+}
+
+.pazanga #xp-iki-lygio {
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.statistika {
+  text-align: center;
+}
+
+.statistika span {
+  display: block;
+  font-size: 32px;
+  font-weight: 800;
+  color: #1d3557;
+}
+
+.statistika p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.stulpelis {
+  background: #f3f6fa;
+  border: 1px solid #d6dde8;
+  border-radius: 12px;
+  padding: 16px;
+  height: 100%;
+}
+
+.stulpelis h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.igudzio-kortele {
+  background: #ffffff;
+  border-left: 4px solid #1d3557;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.igudzio-kortele h4 {
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.igudzio-xp {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c2410c;
+  margin-bottom: 8px;
+}
+
+.igudzio-kortele select {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #d6dde8;
+  border-radius: 6px;
+}
+
+#atlikta .igudzio-kortele {
+  border-left-color: #2f8a4c;
+}
+
+.pasiekimas {
+  text-align: center;
+  padding: 20px;
+  border: 2px dashed #b8c2d1;
+  border-radius: 12px;
+  opacity: 0.55;
+  height: 100%;
+}
+
+.pasiekimas i {
+  font-size: 32px;
+  color: #8a94a6;
+}
+
+.pasiekimas h4 {
+  font-size: 18px;
+  margin: 8px 0 4px;
+}
+
+.pasiekimas p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.pasiekimas.atrakintas {
+  border: 2px solid #c2410c;
+  background: #fff4ec;
+  opacity: 1;
+}
+
+.pasiekimas.atrakintas i {
+  color: #c2410c;
+}
