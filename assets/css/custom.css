@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+  color: #1d3557;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.section-title h2 {
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #1d3557;
+  border-radius: 8px;
+  padding: 12px 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #c2410c;
+  box-shadow: 0 6px 14px rgba(194, 65, 12, 0.35);
+}
+
+.contact .php-email-form button[type=submit]:active {
+  background: #9a3412;
+  transform: scale(0.96);
+}
+
+.portfolio .portfolio-filters li {
+  color: #1d3557;
+  border: 2px solid #1d3557;
+  border-radius: 8px;
+  margin: 0 4px 5px 4px;
+}
+
+.portfolio .portfolio-filters li:hover,
+.portfolio .portfolio-filters li.filter-active {
+  color: #ffffff;
+  background-color: #1d3557;
+}
+
+.portfolio .portfolio-filters li:active {
+  background-color: #c2410c;
+  border-color: #c2410c;
+  transform: scale(0.95);
+}
+
+a {
+  color: #c2410c;
+}
+
+a:hover {
+  color: #9a3412;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.about,
+.resume,
+.portfolio {
+  padding: 90px 0;
+}
+
+.about .content ul li {
+  margin-bottom: 12px;
+}
+
+.about img {
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.resume .resume-item {
+  padding: 0 0 30px 30px;
+  border-left-color: #1d3557;
+}
+
+.resume .resume-item::before {
+  border-color: #c2410c;
+}
+
+.portfolio .portfolio-filters {
+  margin-bottom: 40px;
+}
+
+.portfolio .portfolio-item img {
+  border: 1px solid #d6dde8;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio .portfolio-item .portfolio-info {
+  border-radius: 0 0 12px 12px;
+}
+
+.navmenu a,
+.navmenu a:focus {
+  color: #ffffff;
+  background: #1d3557;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(29, 53, 87, 0.3);
+}
+
+.navmenu a:hover,
+.navmenu .active,
+.navmenu .active:focus,
+.navmenu li:hover > a {
+  background: #c2410c;
+}
+
+.scroll-top {
+  background-color: #c2410c;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.scroll-top:hover {
+  background-color: #1d3557;
+}
+
+.services ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services ul li::before {
+  content: "▸";
+  color: #c2410c;
+  margin-right: 8px;
+}
+
+.services ul ul {
+  padding-left: 26px;
+  margin-top: 4px;
+}
+
+.services ul ul li {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.services ul ul li::before {
+  content: "–";
+  color: #1d3557;
+}
+
+.services ol {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: etapas;
+}
+
+.services ol li {
+  counter-increment: etapas;
+  margin-bottom: 10px;
+}
+
+.services ol li::before {
+  content: counter(etapas);
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50%;
+  background: #1d3557;
+  color: #ffffff;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.services table th {
+  background-color: #1d3557;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.services table tr:nth-child(even) td {
+  background-color: #eef2f8;
+}
+
+.services table th,
+.services table td {
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
